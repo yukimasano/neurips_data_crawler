@@ -6,9 +6,13 @@ Code adapted from https://github.com/evanzd/ICLR2021-OpenReviewData, see details
 
 # running it
 ```
-python crawl_papers.py
+python crawl_paperlist.py
+# produces paperlist.tsv
 ```
 
 ```
 python crawl_reviews.py
+# produces reviews.tsv
 ```
+
+and then use visualization.ipynb to analyze further.
